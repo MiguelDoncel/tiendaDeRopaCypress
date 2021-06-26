@@ -4,7 +4,7 @@
   "description": "Pruebas automatizadas del sistema de tienda de ropa.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run"
   },
   "keywords": [
     "qa",
@@ -21,5 +21,9 @@
   },
   "dependencies": {
     "cypress": "^7.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiguelDoncel/tiendaDeRopaCypress"
   }
 }
